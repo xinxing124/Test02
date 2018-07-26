@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="400dp" android:layout_height="400dp"
+	android:orientation="vertical">
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+	</RelativeLayout>
+	<TextView android:layout_width="wrap_content" android:id="@+id/tv"
+		android:layout_height="wrap_content" android:layout_centerVertical="true"
+		android:textColor="#955" android:textSize="18.0dip" android:text="已选中XX项" />
+	<ListView android:layout_width="fill_parent"
+		android:layout_height="0dip" android:layout_weight="1" android:id="@+id/lv" />
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<Button android:id="@+id/bt_selectall" android:layout_width="0dp"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:text="全选" />
+		<Button android:id="@+id/bt_deselectall" android:layout_width="0dp"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:text="反选" />
+		<Button android:id="@+id/bt_okselect"
+			android:layout_width="0dp" android:layout_height="wrap_content"
+			android:layout_weight="1" android:text="确定" />
+		<Button android:id="@+id/bt_cancelselectall"
+			android:layout_width="0dp" android:layout_height="wrap_content"
+			android:layout_weight="1" android:text="取消" />
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">激光电子平尺</string>
+    <string name="action_opens">打开</string>
+    <string name="action_settings">设置</string>
+    <string name="action_about">关于</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_setting">设置</string>
+    <string name="tvfilename">请输入文件名称</string>
+    <string name="tvtracknumber">请输入钢轨编号</string>
+    <string name="tvoperator">请输入操作员名称</string>
+    <string name="title_activity_second">请输入</string>
+    <string name="bluetooth_mac">标示号：</string>
+    <string name="measuring_temperature">测量温度值：</string>
+    <string name="measuring_top">测量顶面值：</string>
+    <string name="measuring_side">测量侧面值：</string>
+    <string name="title_activity_open">打开数据文件</string>
+    <string name="title_activity_exit">退出程序</string>
+    <string name="exitactivity">你确定要退出本程序？</string>
+    <string name="title_activity_select">选择存储的文件</string>
+
+</resources>
+<!-- <string name="bluetooth_mac">MAC地址：</string> -->
